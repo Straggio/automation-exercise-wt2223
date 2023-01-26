@@ -52,7 +52,7 @@ jobs:
         run: coverage report
       - name: "Create coverage.xml"
         run: coverage xml
-      - name: "Upload xml file"
+      - name: "Upload xml-file"
         uses: actions/upload-artifact@v3    
         with:
           name: coverage.xml
